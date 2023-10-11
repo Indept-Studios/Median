@@ -17,7 +17,7 @@ public class ContinuousMedianCalculator
     public void AddNumber(int number)
     {
         numbers.Add(number);
-        //numbers.Sort();
+        numbers.Sort();
     }
 
     public double GetMedian()
